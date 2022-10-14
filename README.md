@@ -7,8 +7,8 @@ A Go library for Apigee to create and delete a consumer key and consumer secret.
 ## Table of Contents
 
 1. [Prerequisites](#1-prerequisites)
-2. [Configure Environment](#2-configure-environment)
-3. [Configure Access](#3-configure-access)
+2. [Configure Access](#2-configure-access)
+3. [Configure Environment](#3-configure-environment)
 4. [Build / Test](#4-build--test)
 
 ## 1. Prerequisites
@@ -18,17 +18,7 @@ A Go library for Apigee to create and delete a consumer key and consumer secret.
 - [Apigee X](https://cloud.google.com/apigee/docs/) and [Google Cloud CLI](https://cloud.google.com/sdk/docs/install) or
 - [Apigee Edge](https://docs.apigee.com/)
 
-## 2. Configure Environment
-
-```
-export APIGEE_HOST=<APIGEE_HOST>
-export APIGEE_ORG_NAME=<APIGEE_ORG_NAME>
-export APIGEE_DEVELOPER_EMAIL=<APIGEE_DEVELOPER_EMAIL>
-export APIGEE_APP_NAME=<APIGEE_APP_NAME>
-export APIGEE_API_PRODUCTS=["<APIGEE_API_PRODUCT>"]
-```
-
-## 3. Configure Access
+## 2. Configure Access
 
 ```
 gcloud auth login
@@ -40,6 +30,16 @@ or
 ```
 export APIGEE_USERNAME=<APIGEE_USERNAME>
 export APIGEE_PASSWORD=<APIGEE_PASSWORD>
+```
+
+## 3. Configure Environment
+
+```
+export APIGEE_HOST=<APIGEE_HOST>
+export APIGEE_ORG_NAME=<APIGEE_ORG_NAME>
+export APIGEE_DEVELOPER_EMAIL=<APIGEE_DEVELOPER_EMAIL>
+export APIGEE_APP_NAME=<APIGEE_APP_NAME>
+export APIGEE_API_PRODUCTS=["<APIGEE_API_PRODUCT>"]
 ```
 
 ## 4. Build / Test
