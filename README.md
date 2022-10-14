@@ -4,14 +4,21 @@
 
 A Go library for Apigee to create and delete a consumer key and consumer secret. Purpose-built for the [Vault Apigee secrets engine](https://github.com/bstraehle/vault-plugin-secrets-apigee).
 
-## Prerequisites
+## Table of Contents
+
+1. [Prerequisites](#1-prerequisites)
+2. [Configure Environment](#2-configure-environment)
+3. [Configure Access](#3-configure-access)
+4. [Build / Test](#4-build--test)
+
+## 1. Prerequisites
 
 - [Git](https://git-scm.com/downloads) (Optional)
 - [Go](https://go.dev/dl/) (Optional)
 - [Apigee X](https://cloud.google.com/apigee/docs/) and [Google Cloud CLI](https://cloud.google.com/sdk/docs/install) or
 - [Apigee Edge](https://docs.apigee.com/)
 
-## Configure Environment
+## 2. Configure Environment
 
 ```
 export APIGEE_HOST=<APIGEE_HOST>
@@ -21,7 +28,7 @@ export APIGEE_APP_NAME=<APIGEE_APP_NAME>
 export APIGEE_API_PRODUCTS=["<APIGEE_API_PRODUCT>"]
 ```
 
-## Configure Access
+## 3. Configure Access
 
 ```
 gcloud auth login
@@ -35,7 +42,7 @@ export APIGEE_USERNAME=<APIGEE_USERNAME>
 export APIGEE_PASSWORD=<APIGEE_PASSWORD>
 ```
 
-## Build / Test
+## 4. Build / Test
 
 ```
 git clone https://github.com/bstraehle/apigee-client-go.git
