@@ -9,7 +9,7 @@ A Go library for Apigee to create and delete a consumer key and consumer secret.
 1. [Prerequisites](#1-prerequisites)
 2. [Configure Access](#2-configure-access)
 3. [Configure Environment](#3-configure-environment)
-4. [Build/Test](#4-build--test)
+4. [Build/Test](#4-buildtest)
 
 ## 1. Prerequisites
 
