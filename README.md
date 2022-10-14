@@ -1,4 +1,4 @@
-# Apigee client library
+# Apigee Client Library
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/bstraehle/apigee-client-go.svg)](https://pkg.go.dev/github.com/bstraehle/apigee-client-go) [![Go Report Card](https://goreportcard.com/badge/github.com/bstraehle/apigee-client-go)](https://goreportcard.com/report/github.com/bstraehle/apigee-client-go) [![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/bstraehle/apigee-client-go?color=red&include_prereleases&sort=semver)](https://github.com/bstraehle/apigee-client-go/releases)
 
