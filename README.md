@@ -20,14 +20,17 @@ A client library for Apigee to create and delete a consumer key and consumer sec
 
 ## 2. Configure Access
 
+Apigee X
+
 ```
 gcloud auth login
 export APIGEE_OAUTH_TOKEN=$(gcloud auth print-access-token)
 ```
 
-or
+Apigee Edge
 
 ```
+export APIGEE_HOST=<APIGEE_HOST>
 export APIGEE_USERNAME=<APIGEE_USERNAME>
 export APIGEE_PASSWORD=<APIGEE_PASSWORD>
 ```
@@ -35,7 +38,6 @@ export APIGEE_PASSWORD=<APIGEE_PASSWORD>
 ## 3. Configure Environment
 
 ```
-export APIGEE_HOST=<APIGEE_HOST>
 export APIGEE_ORG_NAME=<APIGEE_ORG_NAME>
 export APIGEE_DEVELOPER_EMAIL=<APIGEE_DEVELOPER_EMAIL>
 export APIGEE_APP_NAME=<APIGEE_APP_NAME>
