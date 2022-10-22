@@ -13,8 +13,8 @@ A client library for Apigee to create and delete a consumer key and consumer sec
 
 ## 1. Prerequisites
 
-- [Git](https://git-scm.com/downloads)
 - [Go](https://go.dev/dl/)
+- [Git](https://git-scm.com/downloads)
 - [Apigee X](https://cloud.google.com/apigee/docs/) and [Google Cloud CLI](https://cloud.google.com/sdk/docs/install) or
 - [Apigee Edge](https://docs.apigee.com/)
 
